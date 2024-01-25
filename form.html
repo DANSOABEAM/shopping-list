@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stryle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Shopping List</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Shopping   <i class="fa-solid fa-cart-shopping"></i> </h1>
+        <form id="shoppingForm">
+            <label for="itemName">Item Name:</label>
+            <input type="text" id="itemName" required placeholder="enter item name">
+
+            <label for="itemPrice">Item Price ($):</label>
+            <input type="number" id="itemPrice" step="0.01" required placeholder="enter item price">
+
+            <button type="button" onclick="addItem()">Add to List</button>
+        </form>
+
+        <ul id="shoppingList"></ul>
+
+        <div id="totals">
+            <p>Total Items: <span id="totalItems">0</span></p>
+            <p>Total Price: $<span id="totalPrice">0.00</span></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>

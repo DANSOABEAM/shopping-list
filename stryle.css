@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+   background-image: url(nice.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(236, 43, 127, 0.842);
+    text-align: center;
+    width: 700px;
+    margin-top: -150px;
+ position: static;
+   border-radius: 100px ;
+   height: fit-content;
+   
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 400px ;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(54, 226, 126);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+input:hover{
+    outline: #fff;
+}
+button {
+    background-color: #4caf50;
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    transition: all 1s;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(190, 76, 76, 0.986);
+}
+
+button:hover {
+    background-color: skyblue;
+    transform: translateY(10px);
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    background-color: darksalmon;
+    color: white;
+    border-radius: 100px;
+  
+
+}
+li:hover{
+    color: blueviolet;
+}
+#totals {
+    margin-top: 20px;
+}
+
+#shoppingList{
+    color: blueviolet;
+}
+
+.fa-solid {
+    color: yellow;
+    background-color: black;
+    padding: 15px;
+    border-radius: 50px 10px;
+    box-shadow: 0 0 10px rgba(190, 76, 76, 0.986);
+}
+.fa-solid:hover{
+    color: white;
+    background-color: rgb(71, 141, 71);
+}
